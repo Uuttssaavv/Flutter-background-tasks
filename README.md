@@ -1,3 +1,4 @@
+The setup part of this repository can be found [here](https://medium.com/@theutsavg1/flutter-background-tasks-dda02f98182)
 # Flutter-background-tasks
 In mobile application development, background tasks are vital in ensuring a seamless and interactive user experience. While users interact with the foreground of an app, background tasks quietly operate in the background, handling critical processes without interrupting the app's primary functionality.
 
