@@ -37,6 +37,8 @@ class BackgroundServices {
       androidConfiguration: AndroidConfiguration(
         onStart: _onBackgroundService,
         isForegroundMode: true,
+        initialNotificationContent: 'The task is saving in the preferences',
+        initialNotificationTitle: 'Creating Task',
       ),
     );
   }
