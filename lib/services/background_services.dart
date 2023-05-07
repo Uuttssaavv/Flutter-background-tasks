@@ -48,7 +48,12 @@ class BackgroundServices {
     }
   }
 
-//  do not forget to add `@pragma('vm:entry-point')`
+  ///  do not forget to add `@pragma('vm:entry-point')`
+  /// The @pragma('vm:entry-point') directive ensures that the
+  /// specified function is treated as the starting point of the
+  /// program's execution. When the Dart VM runs the program, it
+  /// looks for the function annotated with @pragma('vm:entry-point')
+  /// and executes it first.
   @pragma('vm:entry-point')
   static Future<bool> _onBackgroundService(
       ServiceInstance serviceInstance) async {
